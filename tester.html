@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPS Test</title>
+    
+    <link rel="stylesheet" href="cssreset.css">
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+<body>
+    <div class="counter">
+        <input type="text" id="display" readonly>
+    </div>
+    <p></p>
+    <p></p>
+    <div class="botao" id="botao" onclick="clicar()">Clique aqui para começar</div>
+
+    <div class="selectContainer">
+        <label class="label" for="select">Selecione o tempo:</label>
+        <select name="select" id="select">
+            <option value="1">1 segundo</option>
+            <option value="5">5 segundos</option>
+            <option value="10">10 segundos</option>
+            <option value="30">30 segundos</option>
+            <option value="60">60 segundos</option>
+        </select>
+    </div>
+    
+    <div class="highscore">
+        <h1 id="highscoretitulo">Highscore: </h1>
+        <span id="highscorenumero">0</span>
+    </div>
+
+    <button class="botaoreset" onclick="resetarCPS()">Resetar highscore</button>
+    
+    <p></p>
+
+    <dialog id="caixinhaResultado">
+        <h2>Seu tempo acabou!</h2>
+        <p></p>
+        Seu CPS é de <span id="resultado">0</span> cliques por segundo.
+        <p>Aperte ESC para sair dessa tela</p>
+    </dialog>
+    <script src="index.js"></script>
+</body>
+</html>

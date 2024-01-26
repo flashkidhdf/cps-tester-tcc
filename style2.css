@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    place-content: center;
+    align-items: center;
+
+    background-color: #ddd;
+}
+
+.counter {
+    margin-top: 160px;
+}
+
+.selectContainer {
+    width: 480px;
+    margin-left: -400px;
+}
+
+.botao {
+    background-color: #333333;
+    color: orange;
+    font-weight: 700;
+    text-align: center;
+
+    border-radius: 10px;
+    padding: 0px 10px;
+    width: 480px;
+    height: 240px;
+
+    font-size: 2rem;
+
+    cursor: pointer;
+
+    display: flex;
+    place-content: center;
+    align-items: center;
+
+    user-select: none;
+
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.25);
+    
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.ativo {
+    color: red;
+    font-size: 4rem;
+}
+
+select {
+    padding: 12px;
+    font-size: 24px;
+}
+
+.label {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#display {
+    padding: 10px;
+    text-align: center;
+    font-size: 36px;
+    width: 480px;
+}
+
+.highscore {
+    display: flex;
+    margin-top: 13px;
+    margin-right: -400px;
+    align-items: center;
+}
+
+#highscorenumero {
+    font-size: 18pt;
+    margin-left: 5px;
+}
+
+.botaoreset {
+    background-color: rgb(41, 41, 28);
+    color: crimson;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    border: black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 150ms;
+}
+
+.botaoreset:hover {
+    background-color: rgb(27, 27, 19);
+}

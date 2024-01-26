@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin: 0px;
+}
+
+ul,
+li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+button,
+input {
+    display: block;
+}
+
+button {
+    all: unset;
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+    color: #121212;                            
+}
+                                                                     
